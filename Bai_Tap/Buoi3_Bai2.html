@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuan 3 bai 2</title>
+        <style>
+            table, td{
+                background-color: pink;
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+            td{
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+
+            }
+            div{
+                border: 3px solid black;
+                width: 900px;
+                height: 500px;
+                margin: 0 auto;
+            }
+            .box1{
+                width: 680px;
+                height: 30px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align:center">Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+            <form action="chucmungdk.html" method="post" >
+                <table class="box1">
+                    <tr>
+                        <td><label for="usname">Họ và tên</label></td>
+                        <td><input type="text" id="usname" name="usname" style="width:420px" placeholder="UsesName..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Địa chỉ</label></td>
+                        <td><input type="text" id="address" name="address" style="width:420px" placeholder="Address..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phonenb">Điện thoại</label></td>
+                        <td><input type="text" id="phonenb" name="phonenb" placeholder="PhoneNumber..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phai">Phái</label></td>
+                        <td>
+                            <input type="radio" id="nam" name="phai">
+                            <label for="nam"> Nam </label>
+                            <input type="radio" id="nu" name="phai" checked="true">
+                            <label for="nu">Nữ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="work">Nghề nghiệp</label></td>
+                        <td>
+                            <select id="work" name="work">
+                                <option value="Giáo viên">Giáo viên</option>
+                                <option value="Kĩ sư phần mềm">Kĩ sư phần mềm</option>
+                                <option value="Nông">Nông</option>
+                                <option value="Kế toán">Kế toán</option>
+                                <option value="Kĩ sư phần cứng">Kĩ sư phần cứng</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sp">Chọn sản phẩm tham gia</label></td>
+                        <td>
+                            <select id="sp" name="sp" size="8" multiple="true" required>
+                                <option value="Kem đánh răng">Kem đánh răng</option>
+                                <option value="Dầu gội">Dầu gội</option>
+                                <option value="Sữa tắm">Sữa tắm</option>
+                                <option value="Bột giặt">Bột giặt</option>
+                                <option value="Nước mắm">Nước mắm</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sl">Số người dự đoán tham gia</label></td>
+                        <td><input type="text" id="sl" name="sl" placeholder="Number..." required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center"><input type="submit" value="Đăng kí"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

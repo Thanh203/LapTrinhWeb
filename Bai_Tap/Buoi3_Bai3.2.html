@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tờ khai y tế</title>
+        <style>
+            div{
+                border: 1px solid black;
+            }
+            .can, h1{
+                text-align: center;
+            }
+            .box1{
+                text-align: center;
+                color: red;
+            }
+            .box2{
+                width: 100%;
+                height: 120px;
+            }
+            .canphai{
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>TỜ KHAI Y TẾ ĐỐI VỚI NGƯỜI</h1>
+            <p class="can">ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH CHỊ SẼ GIÚP CƠ QUAN Y TẾ LIÊN LẠC KHI CẦN THIẾT ĐỂ PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM</p>
+            <p class="box1">Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể xử lý hình sự</p>
+            <form action="chucmungdk.html" method="post"></form>
+                <table style="width:90%">
+                    <tr>
+                        <td><label for="cuakhau">Cửa khẩu(*)</label></td>
+                        <td colspan="3">
+                            <select id="cuakhau" name="cuakhau" required>
+                                <option>Chọn</option>
+                                <option>Phú Yên</option>
+                                <option>Quy Nhơn</option>
+                                <option>Đà Nẵng</option>
+                                <option>Đà Lạt</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="usname">Họ tên (ghi chữ IN HOA)(*)</label></td>
+                        <td colspan="3"><input type="text" id="usname" name="usname" required></td>
+                    </tr>
+                    <tr>
+                        <p><td>Năm sinh(*)</td>
+                        <td>
+                            <select id="nam" name="nam" required>
+                                <option>1900</option>
+                                <option>1901</option>
+                                <option>1902</option>
+                                <option>1903</option>
+                                <option>1904</option>
+                                <option>1905</option>
+                                <option>1906</option>
+                                <option>1907</option>
+                                <option>1908</option>
+                                <option>1909</option>
+                                <option>1910</option>
+                                <option>1911</option>
+                                <option>1912</option>
+                                <option>1913</option>
+                                <option>1914</option>
+                                <option>1915</option>
+                                <option>1916</option>
+                                <option>1917</option>
+                                <option>1918</option>
+                                <option>1919</option>
+                                <option>1920</option>
+                                <option>1921</option>
+                                <option>1922</option>
+                                <option>1923</option>
+                                <option>1924</option>
+                                <option>1925</option>
+                                <option>1926</option>
+                                <option>1927</option>
+                                <option>1928</option>
+                                <option>1929</option>
+                                <option>1930</option>
+                                <option>1931</option>
+                                <option>1932</option>
+                                <option>1933</option>
+                                <option>1934</option>
+                                <option>1935</option>
+                                <option>1936</option>
+                                <option>1937</option>
+                                <option>1938</option>
+                                <option>1939</option>
+                                <option>1940</option>
+                                <option>1941</option>
+                                <option>1942</option>
+                                <option>1943</option>
+                                <option>1944</option>
+                                <option>1945</option>
+                                <option>1946</option>
+                                <option>1947</option>
+                                <option>1948</option>
+                                <option>1949</option>
+                                <option>1950</option>
+                                <option>1951</option>
+                                <option>1952</option>
+                                <option>1953</option>
+                                <option>1954</option>
+                                <option>1955</option>
+                                <option>1956</option>
+                                <option>1957</option>
+                                <option>1958</option>
+                                <option>1959</option>
+                                <option>1960</option>
+                                <option>1961</option>
+                                <option>1962</option>
+                                <option>1963</option>
+                                <option>1964</option>
+                                <option>1965</option>
+                                <option>1966</option>
+                                <option>1967</option>
+                                <option>1968</option>
+                                <option>1969</option>
+                                <option>1970</option>
+                                <option>1971</option>
+                                <option>1972</option>
+                                <option>1973</option>
+                                <option>1974</option>
+                                <option>1975</option>
+                                <option>1976</option>
+                                <option>1977</option>
+                                <option>1978</option>
+                                <option>1979</option>
+                                <option>1980</option>
+                                <option>1981</option>
+                                <option>1982</option>
+                                <option>1983</option>
+                                <option>1984</option>
+                                <option>1985</option>
+                                <option>1986</option>
+                                <option>1987</option>
+                                <option>1988</option>
+                                <option>1989</option>
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                                <option>2010</option>
+                                <option>2011</option>
+                                <option>2012</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>
+                        </td>
+                        <td class="canphai">
+                            Giới tính(*)
+                            <select id="phai" name="phai" required>
+                                <option>Chọn</option>
+                                <option>Nam</option>
+                                <option>Nữ</option>
+                            </select>
+                        </td>
+                        <td class="canphai">
+                            Quốc tịch(*)
+                            <select id="quoctich" name="quoctich" required>
+                                <option>Chọn</option>
+                                <option>Việt Nam</option>
+                                <option>Thái Lan</option>
+                                <option>Brunei</option>
+                                <option>Đông Timor</option>
+                                <option>Indonesia</option>
+                                <option>Lào</option>
+                                <option>Myanmar</option>
+                                <option>Philippines</option>
+                                <option>Singapore</option>
+                                <option>Khác</option>
+                            </select>
+                        </td></p>
+                    </tr>
+                    <tr>
+                        <td><label for="cccd">Sổ hộ chiếu hoặc giấy thông hành hợp pháp khác (*)</label></td>
+                        <td colspan="3"><input type="text" id="cccd" name="cccd" required></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thông tin đi lại (*)</p></td>
+                        <td colspan="3">
+                            <p></p><input type="checkbox" name="ttdl">
+                            Tàu bay
+                            <input type="checkbox" name="ttdl">
+                            Tàu thuyền
+                            <input type="checkbox" name="ttdl">
+                            Ô tô
+                            <input type="checkbox" name="ttdl">
+                            Khác</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><textarea name="message" class="box2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="shpt">Số hiệu phương tiện</label></td>
+                        <td><input type="text" id="shpt" name="shpt"></td>
+                        <td><label for="sg">Số ghế (nếu có)</label></td>
+                        <td><input type="text" id="sg" name="sg"></td>
+                    </tr>
+                    <tr>
+                        <p><td>Ngày khởi hành(*)</td>
+                        <td>
+                            <select id="ngay" required>
+                                <option>Ngày</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <select id="thang" required>
+                                <option>Tháng</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <select id="nam" required>
+                                <option>Năm</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>
+                        </td>
+                        <td colspan="2">
+                            Ngày nhập cảnh(*)
+                            <select id="ngay" required>
+                                <option>Ngày</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <select id="thang" required>
+                                <option>Tháng</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <select id="nam" required>
+                                <option>Năm</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>   
+                        </td></p> 
+                    </tr>
+                    <tr>
+                        <td colspan="4">Địa điểm khởi hành (tỉnh quốc gia)</td>
+                    </tr>
+                    <tr>
+                        <td><p>Quốc gia(*)</p></td>
+                        <td>
+                            <select name="qg">
+                                <option>Chọn</option>
+                                <option>Việt Nam</option>
+                                <option>Thái Lan</option>
+                                <option>Brunei</option>
+                                <option>Đông Timor</option>
+                                <option>Indonesia</option>
+                                <option>Lào</option>
+                                <option>Myanmar</option>
+                                <option>Philippines</option>
+                                <option>Singapore</option>
+                                <option>Khác</option>
+                            </select>
+                        </td>
+                        <td><p>Tỉnh(*)</p></td>
+                        <td>
+                            <select name="tinh">
+                                <option>Chọn</option>
+                                <option>An Giang</option>
+                                <option>Bà Rịa-Vũng Tàu</option>
+                                <option>Bạc Liêu</option>
+                                <option>Bắc Kạn</option>
+                                <option>Bắc Giang</option>
+                                <option>Bắc Ninh</option>
+                                <option>Bến Tre</option>
+                                <option>Bình Dương</option>
+                                <option>Bình Định</option>
+                                <option>Bình Phước</option>
+                                <option>Bình Thuận</option>
+                                <option>Cà Mau</option>
+                                <option>Cao Bằng</option>
+                                <option>Cần Thơ</option>
+                                <option>Đà Nẵng</option>
+                                <option>Đắk Lắk</option>
+                                <option>Đắk Nông</option>
+                                <option>Điện Biên</option>
+                                <option>Đồng Nai</option>
+                                <option>Đồng Tháp</option>
+                                <option>Gia Lai</option>
+                                <option>Hà Giang</option>
+                                <option>Hà Nam</option>
+                                <option>Hà Nội</option>
+                                <option>Hà Tây</option>
+                                <option>Hà Tĩnh</option>
+                                <option>Hải Dương</option>
+                                <option>Hải Phòng</option>
+                                <option>Hòa Bình</option>
+                                <option>Hồ Chí Minh</option>
+                                <option>Hậu Giang</option>
+                                <option>Hưng Yên</option>
+                                <option>Khánh Hòa</option>
+                                <option>Kiên Giang</option>
+                                <option>Kon Tum</option>
+                                <option>Lai Châu</option>
+                                <option>Lào Cai</option>
+                                <option>Lạng Sơn</option>
+                                <option>Lâm Đồng</option>
+                                <option>Long An</option>
+                                <option>Nam Định</option>
+                                <option>Nghệ An</option>
+                                <option>Ninh Bình</option>
+                                <option>Ninh Thuận</option>
+                                <option>Phú Thọ</option>
+                                <option>Phú Yên</option>
+                                <option>Quảng Bình</option>
+                                <option>Quảng Nam</option>
+                                <option>Quảng Ngãi</option>
+                                <option>Quảng Ninh</option>
+                                <option>Quảng Trị</option>
+                                <option>Sóc Trăng</option>
+                                <option>Sơn La</option>
+                                <option>Tây Ninh</option>
+                                <option>Thái Bình</option>
+                                <option>Thái Nguyên</option>
+                                <option>Thanh Hóa</option>
+                                <option>Thừa Thiên Huế</option>
+                                <option>Tiền Giang</option>
+                                <option>Trà Vinh</option>
+                                <option>Tuyên Quang</option>
+                                <option>Vĩnh Long</option>
+                                <option>Vĩnh Phúc</option>
+                                <option>Yên Bái</option>
+                                <option>Khác</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Địa điểm nơi đến (tỉnh quốc gia)</td>
+                    </tr>
+                    <tr>
+                        <td><p>Quốc gia(*)</p></td>
+                        <td>
+                            <select name="qg">
+                                <option>Chọn</option>
+                                <option>Việt Nam</option>
+                                <option>Thái Lan</option>
+                                <option>Brunei</option>
+                                <option>Đông Timor</option>
+                                <option>Indonesia</option>
+                                <option>Lào</option>
+                                <option>Myanmar</option>
+                                <option>Philippines</option>
+                                <option>Singapore</option>
+                                <option>Khác</option>
+                            </select>
+                        </td>
+                        <td><p>Tỉnh(*)</p></td>
+                        <td>
+                            <select name="tinh">
+                                <option>Chọn</option>
+                                <option>An Giang</option>
+                                <option>Bà Rịa-Vũng Tàu</option>
+                                <option>Bạc Liêu</option>
+                                <option>Bắc Kạn</option>
+                                <option>Bắc Giang</option>
+                                <option>Bắc Ninh</option>
+                                <option>Bến Tre</option>
+                                <option>Bình Dương</option>
+                                <option>Bình Định</option>
+                                <option>Bình Phước</option>
+                                <option>Bình Thuận</option>
+                                <option>Cà Mau</option>
+                                <option>Cao Bằng</option>
+                                <option>Cần Thơ</option>
+                                <option>Đà Nẵng</option>
+                                <option>Đắk Lắk</option>
+                                <option>Đắk Nông</option>
+                                <option>Điện Biên</option>
+                                <option>Đồng Nai</option>
+                                <option>Đồng Tháp</option>
+                                <option>Gia Lai</option>
+                                <option>Hà Giang</option>
+                                <option>Hà Nam</option>
+                                <option>Hà Nội</option>
+                                <option>Hà Tây</option>
+                                <option>Hà Tĩnh</option>
+                                <option>Hải Dương</option>
+                                <option>Hải Phòng</option>
+                                <option>Hòa Bình</option>
+                                <option>Hồ Chí Minh</option>
+                                <option>Hậu Giang</option>
+                                <option>Hưng Yên</option>
+                                <option>Khánh Hòa</option>
+                                <option>Kiên Giang</option>
+                                <option>Kon Tum</option>
+                                <option>Lai Châu</option>
+                                <option>Lào Cai</option>
+                                <option>Lạng Sơn</option>
+                                <option>Lâm Đồng</option>
+                                <option>Long An</option>
+                                <option>Nam Định</option>
+                                <option>Nghệ An</option>
+                                <option>Ninh Bình</option>
+                                <option>Ninh Thuận</option>
+                                <option>Phú Thọ</option>
+                                <option>Phú Yên</option>
+                                <option>Quảng Bình</option>
+                                <option>Quảng Nam</option>
+                                <option>Quảng Ngãi</option>
+                                <option>Quảng Ninh</option>
+                                <option>Quảng Trị</option>
+                                <option>Sóc Trăng</option>
+                                <option>Sơn La</option>
+                                <option>Tây Ninh</option>
+                                <option>Thái Bình</option>
+                                <option>Thái Nguyên</option>
+                                <option>Thanh Hóa</option>
+                                <option>Thừa Thiên Huế</option>
+                                <option>Tiền Giang</option>
+                                <option>Trà Vinh</option>
+                                <option>Tuyên Quang</option>
+                                <option>Vĩnh Long</option>
+                                <option>Vĩnh Phúc</option>
+                                <option>Yên Bái</option>
+                                <option>Khác</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><label for="ket">Trong vòng 14 ngày qua, Anh/Chị có đến quốc gia/vùng/lãnh thổ nào không?(nếu có ghi rõ)</label></td>
+                        <td class="canphai"><input type="text" id="ket" name="ket"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="can"><input type="submit" value="Gửi"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
