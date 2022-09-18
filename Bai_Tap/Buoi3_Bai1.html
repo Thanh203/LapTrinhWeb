@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuan 3 bai 1</title>
+        <style>
+            div{
+                background-color: #8cec96;
+            }
+            h1{
+                text-align: center;
+            }
+            .box1 {
+                width: 450px;
+                height: 200px;
+                margin: 0 auto; 
+                font-size: 20px
+            }
+            .box2{
+                padding-left: 30px;
+            }
+            .box3{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <h1>Đăng nhập</h1>
+            <table style="width:100%">   
+                <form>
+                <tr> 
+                        <td><label for="username">Mã người dùng</label></td>
+                        <td class="box2"><input type="text" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Mật khẩu</label></td>
+                    <td class="box2"><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="box3"><button type="button" onclick="myFunction()">Đăng kí</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="ip" class="box3"></td>
+                </tr> 
+                </form>
+            </table>
+            <script>
+                function myFunction() {
+                var x = document.getElementById("username").value;
+                document.getElementById("ip").innerHTML ="Chúc mừng "+ x +" .Bạn đã đăng nhập thành công!";
+                } 
+            </script>
+        </div>
+    </body>
+</html>
