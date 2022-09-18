@@ -1,0 +1,134 @@
+:root{
+    --color-blue: rgb(47, 62, 198);
+    --color-yellow: rgb(234, 214, 4);
+    --color-blue2: rgb(81, 158, 236);
+}
+#div-top{
+    width:100%;
+    height: 30px;
+    background-color: var(--color-blue);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* menu1 */
+#bg-menu1{
+    background-color: white;
+    border: none;
+    margin-left: 10%;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: var(--color-blue);
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: var(--color-yellow);
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #f31f1f;
+}
+.navbar-inverse .navbar-language{
+    text-align: right;
+    margin-right: 5%;
+}
+/* manu2 */
+#margin-left-menu2{
+    margin-left: 10%;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    background-color: var(--color-blue);
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: var(--color-yellow);
+}
+#color-brand-menu2{
+    color: white;
+}
+/* Slideshow */
+#padding-slideshow{
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* footer */
+#bg-footer1{
+    background-color: var(--color-blue);
+    color:white;
+}
+a.font-color-footer{
+    color: white;
+}
+a.font-color-footer:hover {
+    color: var(--color-yellow);
+}
+
+/* footer2 */
+#bg-footer2{
+    background-color: #1c2288;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Notification */
+.row1{
+    margin-left: 0px;
+    margin: 20px;
+}
+.size-img{
+    width: 250px;
+    height:250px;
+    border-radius: 10px;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+#marging-top-body{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 243, 243);
+
+}
+a.text-title{
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/* Video */
+#video-slideshow{
+    margin-left: 9%;
+    width: 450px;
+    float:left;
+}
+#menu2{
+    margin-left:160px;
+    min-height:320px;
+}
+.menu2 a, .menu2 a:visited {
+    position:relative; 
+    text-decoration:none; 
+    text-align:center; 
+    background-color: var(--color-blue2);
+    color:#fff;
+    display:block;
+    width:90%;
+    padding: 20px;
+    margin: 10px; 
+}
+.menu2 a:hover {
+    top:2px; 
+    left:2px; 
+    color:#fff;
+}
+#menu2-1{
+    width: 250px;
+    float:left;
+    font-size: 16px;
+}
