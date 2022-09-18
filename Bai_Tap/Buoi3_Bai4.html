@@ -20,99 +20,99 @@
   </head>
 
   <body>
-    <p>Information</p>
     <div class="content">
       <form>
-        <label for="search">Search:</label>
-        <input
-          type="text"
-          id="search"
-          name="search"
-          placeholder="Enter keyword..."
-        /><br />
-        <label for="url">Url path:</label>
-        <input type="url" id="url" name="url" /><br />
-        <label for="user">User:</label>
-        <input
-          type="text"
-          id="user"
-          name="user"
-          placeholder="Enter Username..."
-        /><br />
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" /><br />
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter Email..."
-        /><br />
-        <label for="pass">Pass:</label>
-        <input
-          type="password"
-          id="pass"
-          name="pass"
-          placeholder="Enter password..."
-        /><br />
-        <label for="cm">Comment:</label><br />
-        <textarea
-          type="message"
-          id="cm"
-          name="cm"
-          cols="30"
-          rows="10"
-          placeholder="comment here..."
-        ></textarea>
+        <fieldset>
+          <legend>Information</legend>
+          <label for="search">Search:</label>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Enter keyword..."
+          /><br />
+          <label for="url">Url path:</label>
+          <input type="url" id="url" name="url" /><br />
+          <label for="user">User:</label>
+          <input
+            type="text"
+            id="user"
+            name="user"
+            placeholder="Enter Username..."
+          /><br />
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email..."
+          /><br />
+          <label for="pass">Pass:</label>
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Enter password..."
+          /><br />
+          <label for="cm">Comment:</label><br />
+          <textarea
+            type="message"
+            id="cm"
+            name="cm"
+            cols="30"
+            rows="10"
+            placeholder="comment here..."
+          ></textarea>
+        </fieldset>
       </form>
     </div>
-
-    <div>
+    
+    <div class="content">
       <form>
         <fieldset>
           <legend>Controls</legend>
-        <p for="phai">
-          Genner:
-          <input type="radio" id="nam" name="phai" />
-          <label for="nam"> Nam </label>
-          <input type="radio" id="nu" name="phai" />
-          <label for="nu">Nữ</label>
-          <input type="radio" id="khac" name="phai" checked="true" />
-          <label for="khac">Khác</label>
-        </p>
-        <p>
-          So thich:
-          <input type="checkbox" checked="true"/>
-          Khong so thich
-          <input type="checkbox" />
-          Nhac
-          <input type="checkbox" />
-          Xem phim
-          <input type="checkbox" />
-          The thao
-          <input type="checkbox" />
-          Doc sach
-        </p>
-        <p>
-          Thanh pho:
-          <select>
+          <p for="phai">
+            Genner:
+            <input type="radio" id="nam" name="phai" />
+            <label for="nam"> Nam </label>
+            <input type="radio" id="nu" name="phai" />
+            <label for="nu">Nữ</label>
+            <input type="radio" id="khac" name="phai" checked="true" />
+            <label for="khac">Khác</label>
+          </p>
+          <label>So thich:</label>       
+          <input type="checkbox" id="kosothich" name="kosothich" checked="true"/>
+          <label for="kosothich">Khong so thich</label>
+          <input type="checkbox" id="nhac" name="nhac"/>
+          <label for="nhac">Nhac</label>
+          <input type="checkbox" id="xemphim" name="xemphim"/>
+          <label for="xemphim">Xem phim</label>
+          <input type="checkbox" id="thethao" name="thethao"/>
+          <label for="thethao">The thao</label>
+          <input type="checkbox" id="docsach" name="docsach"/>
+          <label for="docsach">Doc sach</label><br/><br/>  
+          
+          <label for="thanhpho">Thanh pho:</label> 
+          <select id="thanhpho" name="thanhpho">
             <option>TP.HCM</option>
             <option>Tuy Hoa</option>
             <option>Khac</option>
           </select>
-        </p>
-        <p>
-          Choose File:
-          <input type="file" value="Choose File" requỉed/>
-          <button type="button" onclick="alert('Image upload successfully')">Submit</button>
-        </p>
-          <button type="submit">
-            <img
-              class="kth"
-              src="https://hnmu.edu.vn/upload/data/news/02-12-19/dt-hssv-co-cau.jpg"
-            />
-            Add
-          </button>
+
+          <p>
+            Choose File:
+            <input type="file" value="Choose File" required/>
+            <button type="button" onclick="alert('Image upload successfully')">Submit</button>
+          </p>
+            <button type="submit">
+              <img
+                class="kth"
+                src="https://hnmu.edu.vn/upload/data/news/02-12-19/dt-hssv-co-cau.jpg"
+              />
+              Add
+            </button>
         </fieldset>
       </form>
     </div>
